@@ -39,7 +39,7 @@ var app = new Vue({
                     "Our website is under construction.Click Playstore icon for download our app from playstore",
                 icon: "info",
                 html:
-                    '<a href="https://play.google.com/store/apps/details?id=com.paramorsho.consultancy"><img src="./img/google-play-badge/google-play-badge/128x128.png" alt=""/></a>',
+                    '<a href="https://play.google.com/store/apps/details?id=com.paramorsho.consultancy"><img src="./frontend_assets/img/google-play-badge/google-play-badge/128x128.png" alt=""/></a>',
                 showCloseButton: true,
                 showCancelButton: true,
                 focusConfirm: false,
