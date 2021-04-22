@@ -93,8 +93,12 @@
   position: fixed;
   z-index: 9;
   display: block;
+  opacity: 1;
+  transition: all 0.5s;
+  visibility: visible;
   &.hide {
-    display: none;
+    opacity: 0;
+    visibility: hidden;
   }
 }
 //   alert card
@@ -114,6 +118,7 @@
   z-index: 999;
   overflow: hidden;
   display: block;
+  transition: all 0.5s;
   span {
     font-size: 25px;
     display: inline-block;
@@ -143,6 +148,6 @@
     text-align: justify;
   }
   &.hide {
-    display: none;
+    top: -100%;
   }
 }
