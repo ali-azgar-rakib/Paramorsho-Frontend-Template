@@ -107,8 +107,10 @@
 //   alert card
 .profile-bio {
   display: none;
-  width: 500px;
-  height: 500px;
+  // width: 500px;
+  max-width: 500px;
+  // height: 500px;
+  max-height: 500px;
   padding: 25px;
   background: #fff;
   position: fixed;
